@@ -1,3 +1,9 @@
+name: Bug report
+description: Report a bug
+title: "[BUG]"
+labels: "bug"
+type: "Bug"
+
 body:
 - type: markdown
   attributes:
