@@ -5,10 +5,11 @@ labels: "bug"
 type: "Bug"
 
 body:
-- type: markdown
-  attributes:
-    value: "## Welcome!"
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this bug!
+  - type: textarea
+    id: background
+    attributes:
+      label: Describe the bug
+      description: Please provide the description of issue you're seeing.
+      placeholder: Description
+    validations:
+      required: true
