@@ -1,15 +1,15 @@
+version: 2
 name: Bug report
 description: Report a bug
-title: "[BUG]"
-labels: "bug"
-type: "Bug"
-
+title: "[BUG] <short description>"
+labels:
+  - bug
 body:
   - type: textarea
     id: background
     attributes:
       label: Describe the bug
-      description: Please provide the description of issue you're seeing.
+      description: Please provide a detailed description of the issue you're seeing.
       placeholder: Description
     validations:
       required: true
